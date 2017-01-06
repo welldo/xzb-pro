@@ -6,6 +6,9 @@ export HOME=$(grep -e "^${USER:-root}:" /etc/passwd | cut -d ":" -f 6)
 export HOME=${HOME:-/root}
 export PS1='[\[\033[35;1m\]\u\[\033[0m\]@\[\033[31;1m\]\h\[\033\[0m\]:\[\033[32;1m\]$PWD\[\033[0m\]]\$'
 
+alias hd='cd /data/UsbDisk1/Volume1/'
+alias ll='ls -al'
+
 [ -x /bin/more ] || alias more=less
 [ -x /usr/bin/vim ] && alias vi=vim || alias vim=vi
 
