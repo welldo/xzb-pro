@@ -27,6 +27,8 @@ hard_drive_standby_handler() {
 	echo "[$0] put $pcie2sata_hdd in standby"
 	# detect HDD if sleep and turn on green led
 	update_LED_static_status
+	# lower fan speed
+	fanup 22
 }
 
 create_pid_file
@@ -79,7 +81,17 @@ do
 		if [ -z "$hdd_status" ]; then
 			hdd_standby=0
 			echo "[$0]/dev/$pcie2sata_hdd change to active/idle"
-			update_LED_static_status
+			
+			# if SD is doing backup don't interfere
+			if [ -f /tmp/sdbackup.pid ]; then
+				backup_stat=$(cat /tmp/sdbackup.pid)
+
+				if [ $backup_stat -ne 1 ]; then
+					update_LED_static_status
+				fi
+			else
+				update_LED_static_status
+			fi
 		fi
 	fi
 	

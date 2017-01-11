@@ -4,5 +4,5 @@ Depends: libc, libnvram
 Source: package/ramips/applications/nvram
 Section: opt
 Architecture: ramips_24kec
-Installed-Size: 2029
+Installed-Size: 2031
 Description:  MTK nvram tool

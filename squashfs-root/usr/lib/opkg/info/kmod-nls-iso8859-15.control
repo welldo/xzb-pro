@@ -6,5 +6,5 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ramips_24kec
-Installed-Size: 1856
+Installed-Size: 1859
 Description:  Kernel module for NLS ISO 8859-15 (Latin 9)

@@ -6,5 +6,5 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ramips_24kec
-Installed-Size: 89736
+Installed-Size: 89740
 Description:  Kernel module for NFS support

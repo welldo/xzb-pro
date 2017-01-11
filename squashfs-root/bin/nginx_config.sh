@@ -21,6 +21,7 @@ NGINX_USER=root
 
 XCTL_UNIX_PATH=unix:/tmp/nginx/socket/xctl.sock
 MPS_UNIX_PATH=unix:/tmp/nginx/socket/mps.sock
+RCMD_UNIX_PATH=unix:/tmp/nginx/socket/rcmd.sock
 XLOGD_UNIX_PATH=unix:/tmp/nginx/socket/xlogd.sock
 
 mkdir -p /tmp/nginx/logs
@@ -269,6 +270,22 @@ http {
             add_header Cache-Control max-age=604800;
             
             proxy_pass http://${MPS_UNIX_PATH};
+            
+            proxy_hide_header access-control-allow-credentials;
+            proxy_hide_header access-control-allow-headers;
+            proxy_hide_header access-control-allow-methods;
+            proxy_hide_header access-control-allow-origin;
+            proxy_hide_header Cache-Control;
+        }
+
+	location /remote_cmd {
+            add_header access-control-allow-credentials yes;
+            add_header access-control-allow-headers X-Requested-With,Content-Type;
+            add_header access-control-allow-methods GET,POST,OPTIONS;
+            add_header access-control-allow-origin http://pan.xzb.xunlei.com;
+            add_header Cache-Control max-age=604800;
+            
+            proxy_pass http://${RCMD_UNIX_PATH};
             
             proxy_hide_header access-control-allow-credentials;
             proxy_hide_header access-control-allow-headers;

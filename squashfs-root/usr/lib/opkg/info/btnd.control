@@ -4,5 +4,5 @@ Depends: libc
 Source: package/ramips/applications/btnd
 Section: MTK Properties
 Architecture: ramips_24kec
-Installed-Size: 3873
+Installed-Size: 3864
 Description:  Daemon to monitor gpio buttons

@@ -6,5 +6,5 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ramips_24kec
-Installed-Size: 76566
+Installed-Size: 76562
 Description:  Serial and Parallel ATA support

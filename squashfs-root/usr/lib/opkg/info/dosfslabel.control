@@ -4,6 +4,6 @@ Depends: libc, libstdcpp, libiconv-full
 Source: package/utils/dosfstools
 Section: utils
 Architecture: ramips_24kec
-Installed-Size: 104
+Installed-Size: 105
 Description:  Utilities to create and check MS-DOS FAT filesystems.
  (dosfslabel for reading and writing labels of FAT volumes)

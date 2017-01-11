@@ -76,7 +76,9 @@ start_instance() {
 		file_allocation bt_enable_lpd enable_dht rpc_user rpc_passwd rpc_listen_port dir bt_tracker disk_cache \
 		max_overall_download_limit max_overall_upload_limit max_download_limit max_upload_limit max_concurrent_downloads \
 		max_connection_per_server min_split_size split save_session_interval follow_torrent listen_port bt_max_peers \
-		peer_id_prefix user_agent rpc_secret log_level
+		peer_id_prefix user_agent rpc_secret log_level bt_require_crypto bt_hash-chek-seed bt_seed_unverified \
+		bt_save_metadata bt_max_peers listen_port dht_listen_port follow_torrent force_save enable_peer_exchange \
+		bt_stop_timeout seed_ratio seed_time
 	
 	config_list_foreach "$s" extra_settings append_extrasettings
 	

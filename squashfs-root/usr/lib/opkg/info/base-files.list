@@ -48,8 +48,8 @@
 /lib/functions/system.sh
 /etc/openwrt.config
 /lib/upgrade/common.sh
-/etc/sysupgrade.conf
 /etc/rc.button/power
+/etc/sysupgrade.conf
 /etc/hotplug.d/firmware/10-rt2x00-eeprom
 /etc/rc.button/rfkill
 /lib/preinit/07_set_preinit_iface_ramips
@@ -78,8 +78,8 @@
 /lib/preinit/99_10_failsafe_login
 /etc/init.d/sysfixtime
 /etc/TZ
-/etc/init.d/umount
 /lib/functions/service.sh
+/etc/init.d/umount
 /lib/upgrade/keep.d/base-files-essential
 /etc/passwd
 /lib/preinit/02_default_set_state

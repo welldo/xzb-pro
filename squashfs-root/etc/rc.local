@@ -10,7 +10,7 @@ ulimit -v 150000
 # start the service if not exist
 #[ -z "$(ps  2>&1 | grep -w 'xctl' | grep -v 'grep')" ] && /etc/init.d/xctlsh start &
 #[ -z "$(ps  2>&1 | grep -w 'racd' | grep -v 'grep')" ] && /etc/init.d/racdsh start &
-/bin/resetboot -b &
+/bin/resetboot -a 1.1 -b &
 /bin/au &
 /bin/hsd &
 /usr/sbin/dropbear -I 600

@@ -6,5 +6,5 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ramips_24kec
-Installed-Size: 52033
+Installed-Size: 52030
 Description:  Kernel module for userspace filesystem support

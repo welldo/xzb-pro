@@ -4,5 +4,5 @@ Depends: libc, libuuid, libpthread, librt
 Source: package/utils/xfsprogs
 Section: utils
 Architecture: ramips_24kec
-Installed-Size: 438675
+Installed-Size: 438674
 Description:  Utilities for checking and repairing XFS filesystems

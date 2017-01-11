@@ -5,6 +5,6 @@ Source: package/libs/libusb
 Section: libs
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ramips_24kec
-Installed-Size: 23121
+Installed-Size: 23115
 Description:  libusb is a C library that gives applications easy access to USB devices on
  many different operating systems.

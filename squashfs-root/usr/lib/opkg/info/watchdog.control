@@ -4,5 +4,5 @@ Depends: libc, kmod-hw_wdg
 Source: package/ramips/applications/watchdog
 Section: MTK Properties
 Architecture: ramips_24kec
-Installed-Size: 1804
+Installed-Size: 1817
 Description:  MTK APSoC Watchdog Daemon

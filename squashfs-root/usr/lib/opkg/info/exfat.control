@@ -4,6 +4,6 @@ Depends: libc
 Source: package/utils/exfat
 Section: utils
 Architecture: ramips_24kec
-Installed-Size: 45745
+Installed-Size: 51060
 Description:  provide a set of exFAT file system utilities.
  

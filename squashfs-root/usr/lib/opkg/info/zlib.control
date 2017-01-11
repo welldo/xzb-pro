@@ -6,5 +6,5 @@ License: ZLIB
 LicenseFiles: README
 Section: libs
 Architecture: ramips_24kec
-Installed-Size: 40014
+Installed-Size: 40017
 Description:  Library implementing the deflate compression method

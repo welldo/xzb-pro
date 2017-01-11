@@ -207,9 +207,6 @@ mmcblk0p*)
 		xlogger "script: add sdcard partition"
 		/etc/waittime.sh sdopen &
 
-		/etc/autosdbackup.sh
-		touch /tmp/sdinsert
-
 		if [ "$xzb_mach" == "xiazaibao" ]; then
 			gpio orange_on_white_off
 			status=`mount | grep UsbDisk1`
@@ -222,6 +219,9 @@ mmcblk0p*)
 			sleep 1
 			update_LED_static_status
                 fi
+
+		/etc/autosdbackup.sh                                                                                                                            
+                touch /tmp/sdinsert 
 		;;
 	esac
 	;;

@@ -6,5 +6,5 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ramips_24kec
-Installed-Size: 1104
+Installed-Size: 1106
 Description:  Kernel module for NLS UTF-8

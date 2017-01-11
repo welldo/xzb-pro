@@ -6,5 +6,5 @@ License: GPLv2
 Section: kernel
 Maintainer: Hua Shao <hua.shao@mediatek.com>
 Architecture: ramips_24kec
-Installed-Size: 54733
+Installed-Size: 54743
 Description:  MS exFAT support

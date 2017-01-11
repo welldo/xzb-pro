@@ -6,5 +6,5 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ramips_24kec
-Installed-Size: 283856
+Installed-Size: 284793
 Description:  Kernel module for EXT4 filesystem support

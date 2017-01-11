@@ -60,8 +60,8 @@
 /etc/init.d/sysntpd
 /bin/date
 /usr/bin/wc
-/usr/bin/[
 /usr/bin/nslookup
+/usr/bin/[
 /usr/bin/pgrep
 /bin/umount
 /bin/netmsg
@@ -93,8 +93,8 @@
 /usr/bin/taskset
 /usr/bin/yes
 /usr/bin/top
-/sbin/switch_root
 /usr/bin/expr
+/sbin/switch_root
 /usr/bin/env
 /sbin/sysctl
 /bin/sed
@@ -118,9 +118,9 @@
 /usr/bin/uptime
 /bin/fsync
 /bin/pidof
-/bin/egrep
 /usr/bin/strings
 /usr/bin/readlink
+/bin/egrep
 /bin/ps
 /usr/bin/xargs
 /bin/gzip

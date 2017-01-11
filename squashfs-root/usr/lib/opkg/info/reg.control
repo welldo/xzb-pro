@@ -4,5 +4,5 @@ Depends: libc, kmod-rdm
 Source: package/ramips/applications/reg
 Section: MTK Properties
 Architecture: ramips_24kec
-Installed-Size: 3078
+Installed-Size: 3076
 Description:  An program to read/write ralink register.

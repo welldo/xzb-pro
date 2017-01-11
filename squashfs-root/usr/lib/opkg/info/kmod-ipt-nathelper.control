@@ -6,7 +6,7 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ramips_24kec
-Installed-Size: 8910
+Installed-Size: 8940
 Description:  Default Netfilter (IPv4) Conntrack and NAT helpers
  Includes:
  - ftp

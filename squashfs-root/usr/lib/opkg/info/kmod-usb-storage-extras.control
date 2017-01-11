@@ -6,6 +6,6 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ramips_24kec
-Installed-Size: 35659
+Installed-Size: 36724
 Description:  Say Y here if you want to have some more drivers,
  such as for SmartMedia card readers

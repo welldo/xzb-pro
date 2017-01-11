@@ -4,6 +4,6 @@ Depends: libc, libstdcpp, libiconv-full
 Source: package/utils/dosfstools
 Section: utils
 Architecture: ramips_24kec
-Installed-Size: 22243
+Installed-Size: 22291
 Description:  Utilities to create and check MS-DOS FAT filesystems.
  (fsck.vfat and fsck.msdos for checking integrity of FAT volumes)

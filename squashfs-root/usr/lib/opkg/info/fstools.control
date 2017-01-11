@@ -6,5 +6,5 @@ License: GPLv2
 Section: base
 Maintainer: John Crispin <blogic@openwrt.org>
 Architecture: ramips_24kec
-Installed-Size: 18350
+Installed-Size: 18400
 Description:  OpenWrt filesystem tools

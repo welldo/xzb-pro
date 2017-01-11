@@ -7,5 +7,5 @@ LicenseFiles: COPYING
 Section: libs
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ramips_24kec
-Installed-Size: 12879
+Installed-Size: 12882
 Description:  This package contains a library for javascript object notation backends.

@@ -8,5 +8,5 @@
 /etc/sysctl.conf
 /etc/rc.local
 /etc/sysupgrade.conf
-/etc/config/fstab
 /etc/config/system
+/etc/config/fstab

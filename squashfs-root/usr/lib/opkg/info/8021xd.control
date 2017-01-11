@@ -4,5 +4,5 @@ Depends: libc
 Source: package/ramips/applications/8021xd
 Section: MTK Properties
 Architecture: ramips_24kec
-Installed-Size: 23424
+Installed-Size: 23423
 Description:  802.1X Daemon

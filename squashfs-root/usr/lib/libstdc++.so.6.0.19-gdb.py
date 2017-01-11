@@ -19,8 +19,8 @@ import gdb
 import os
 import os.path
 
-pythondir = '/mnt/morespace/fw_7621/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/share/gcc-4.8.3/python'
-libdir = '/mnt/morespace/fw_7621/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/mipsel-openwrt-linux-uclibc/lib'
+pythondir = '/home/avalon/workspace/newspace/fw7621/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/share/gcc-4.8.3/python'
+libdir = '/home/avalon/workspace/newspace/fw7621/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/mipsel-openwrt-linux-uclibc/lib'
 
 # This file might be loaded when there is no current objfile.  This
 # can happen if the user loads it manually.  In this case we don't

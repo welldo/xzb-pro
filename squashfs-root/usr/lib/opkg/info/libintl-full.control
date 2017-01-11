@@ -5,5 +5,5 @@ Source: package/libs/gettext-full
 Section: libs
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: ramips_24kec
-Installed-Size: 15987
+Installed-Size: 15977
 Description:  GNU Internationalization library

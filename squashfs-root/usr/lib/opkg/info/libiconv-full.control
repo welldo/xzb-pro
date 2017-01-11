@@ -5,5 +5,5 @@ Source: package/libs/libiconv-full
 Section: libs
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: ramips_24kec
-Installed-Size: 669095
+Installed-Size: 669058
 Description:  Character set conversion library

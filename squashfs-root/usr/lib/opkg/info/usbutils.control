@@ -5,5 +5,5 @@ Source: package/utils/usbutils
 Section: utils
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ramips_24kec
-Installed-Size: 205689
+Installed-Size: 205688
 Description:  USB devices listing utilities

@@ -4,5 +4,5 @@ Depends: libc
 Source: package/ramips/applications/switch
 Section: MTK Properties
 Architecture: ramips_24kec
-Installed-Size: 9165
+Installed-Size: 9082
 Description:  An program to config switch.

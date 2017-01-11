@@ -4,5 +4,5 @@ Depends: libc
 Source: package/ramips/applications/mii_mgr
 Section: MTK Properties
 Architecture: ramips_24kec
-Installed-Size: 1942
+Installed-Size: 1943
 Description:  An program.

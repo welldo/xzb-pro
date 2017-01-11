@@ -4,5 +4,5 @@ Depends: libc
 Source: package/ramips/applications/fanup
 Section: MTK Properties
 Architecture: ramips_24kec
-Installed-Size: 1998
+Installed-Size: 2000
 Description:  An program to adjust cooling fan speed via gpio.

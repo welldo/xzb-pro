@@ -4,5 +4,5 @@ Depends: libc
 Source: package/ramips/applications/eth_mac
 Section: MTK Properties
 Architecture: ramips_24kec
-Installed-Size: 2354
+Installed-Size: 2355
 Description:  An program to config eth mac.

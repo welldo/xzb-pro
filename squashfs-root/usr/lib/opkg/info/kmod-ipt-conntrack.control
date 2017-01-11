@@ -6,7 +6,7 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ramips_24kec
-Installed-Size: 42233
+Installed-Size: 43063
 Description:  Netfilter (IPv4) kernel modules for connection tracking
  Includes:
  - conntrack

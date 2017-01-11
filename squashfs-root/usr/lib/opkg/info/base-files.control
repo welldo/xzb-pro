@@ -4,5 +4,5 @@ Depends: libc, netifd, procd, jsonfilter
 Source: package/base-files
 Section: base
 Architecture: ramips_24kec
-Installed-Size: 74518
+Installed-Size: 74863
 Description:  This package contains a base filesystem and system scripts for OpenWrt.

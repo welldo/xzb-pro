@@ -6,5 +6,5 @@ License: GPLv2 LGPLv2.1 BSD-3c
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Section: utils
 Architecture: ramips_24kec
-Installed-Size: 88036
+Installed-Size: 88034
 Description:  a menu-driven program for creation and manipulation of partition tables

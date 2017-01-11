@@ -28,12 +28,12 @@ end
 
 function _M:start()
 	print("start module xlogd")
-	os.execute("${PLUGIN_ROOT}/etc/init.d/xlogdsh start")
+	os.execute("${PLUGIN_ROOT}/etc/init.d/xlogsh start")
 end
 
 function _M:stop()
 	print("stop module xlogd")
-	os.execute("${PLUGIN_ROOT}/etc/init.d/xlogdsh stop")
+	os.execute("${PLUGIN_ROOT}/etc/init.d/xlogsh stop")
 end
 
 function _M:status()
