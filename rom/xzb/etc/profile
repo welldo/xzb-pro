@@ -8,8 +8,15 @@ export PS1='[\[\033[35;1m\]\u\[\033[0m\]@\[\033[31;1m\]\h\[\033\[0m\]:\[\033[32;
 
 alias hd='cd /data/UsbDisk1/Volume1/'
 alias ll='ls -al'
-alias taxz='tar -xvzf'
-alias tacz='tar -vzvf'
+alias tarxz='tar -xvzf'
+alias tarcz='tar -cvzf'
+alias es='/etc/etmsh start'
+alias et='/etc/etmsh stop'
+alias rf='reboot -f'
+alias ms='/etc/init.d/monit start'
+alias mt='/etc/init.d/monit stop'
+d="/etc/init.d/"
+
 
 [ -x /bin/more ] || alias more=less
 [ -x /usr/bin/vim ] && alias vi=vim || alias vim=vi
