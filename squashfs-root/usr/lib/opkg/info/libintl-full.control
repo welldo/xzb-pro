@@ -1,9 +1,0 @@
-Package: libintl-full
-Version: 0.18.2.1-1
-Depends: libc
-Source: package/libs/gettext-full
-Section: libs
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
-Architecture: ramips_24kec
-Installed-Size: 15977
-Description:  GNU Internationalization library

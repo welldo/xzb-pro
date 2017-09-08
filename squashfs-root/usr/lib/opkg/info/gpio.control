@@ -1,8 +1,0 @@
-Package: gpio
-Version: 1
-Depends: libc
-Source: package/ramips/applications/gpio
-Section: MTK Properties
-Architecture: ramips_24kec
-Installed-Size: 3436
-Description:  An program to config gpio.
